@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Bus")(type "Legacy")(uri "${KIPRJMOD}/CADfiles/ESQ-126-39-G-D/ESQ-126-39-G-D.mod")(options "")(descr ""))
+)
