@@ -27,5 +27,5 @@ fp-info-cache
 # Archives
 *.zip
 
-DataComm-backups
+*-backups
 Documentation

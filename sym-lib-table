@@ -5,6 +5,5 @@
   (lib (name "Cin")(type "KiCad")(uri "${KIPRJMOD}/CADfiles/ul_GRM219R61A475KE34D/KiCADv6/2024-09-02_04-02-08.kicad_sym")(options "")(descr ""))
   (lib (name "Cout")(type "KiCad")(uri "${KIPRJMOD}/CADfiles/ul_GRM155R60J475ME87D/KiCADv6/2024-09-02_04-04-05.kicad_sym")(options "")(descr ""))
   (lib (name "Bus")(type "KiCad")(uri "${KIPRJMOD}/CADfiles/ESQ-126-39-G-D/ESQ-126-39-G-D.kicad_sym")(options "")(descr ""))
-  (lib (name "STBB1")(type "KiCad")(uri "${KIPRJMOD}/CADfiles/ul_STBB1-APUR/KiCADv6/2024-09-13_16-42-12.kicad_sym")(options "")(descr ""))
-  (lib (name "INA740B")(type "KiCad")(uri "${KIPRJMOD}/CADfiles/ul_PINA740BIREMR/KiCADv6/2024-09-16_03-18-06.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX20402A")(type "KiCad")(uri "${KIPRJMOD}/CADfiles/ul_MAX20402AFLA-VY-/KiCADv6/2024-10-07_01-58-40.kicad_sym")(options "")(descr ""))
 )

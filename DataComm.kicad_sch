@@ -2858,6 +2858,70 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 57.15 177.8) (xy 59.69 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b0933c-d9f9-4055-af66-0de94b35f5f2")
+	)
+	(wire
+		(pts
+			(xy 82.55 177.8) (xy 85.09 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f3d57a-ffd1-48d0-a704-49855528279f")
+	)
+	(global_label "BUS5V"
+		(shape bidirectional)
+		(at 57.15 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e297489-61d2-4dbf-8226-de211d4b6c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9454 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUS5V"
+		(shape bidirectional)
+		(at 85.09 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df85a017-d517-4f59-869d-6009da1eeb21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.2946 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32U5:STM32U595RJTx")
 		(at 288.29 128.27 0)
@@ -3804,6 +3868,54 @@
 		)
 	)
 	(sheet
+		(at 392.43 245.11)
+		(size 29.21 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c30d0518-588e-429a-ae3c-1d99778331b7")
+		(property "Sheetname" "5V"
+			(at 392.43 243.7634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V.kicad_sch"
+			(at 392.43 273.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PGOOD5V" bidirectional
+			(at 392.43 250.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24942fed-4b57-4f0f-95a5-829048da6987")
+		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 360.68 245.11)
 		(size 29.21 27.94)
 		(fields_autoplaced yes)
@@ -3832,16 +3944,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "BUS3V3" input
-			(at 360.68 261.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "00b14be6-a625-47bf-9cb8-600db3311228")
 		)
 		(instances
 			(project "DataComm"
