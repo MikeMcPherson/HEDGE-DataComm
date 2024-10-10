@@ -2524,7 +2524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e7a0a7-f6df-4f9e-aba9-a178b4641f5a")
-		(property "Reference" "R11"
+		(property "Reference" "R?"
 			(at 236.22 137.1599 0)
 			(effects
 				(font
@@ -2575,6 +2575,14 @@
 		(pin "1"
 			(uuid "5abf682b-dd82-4238-9ead-c1b814a3c842")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2586,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06f9db4c-b450-4807-b37a-9c852f3caa39")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR?"
 			(at 147.32 132.08 0)
 			(effects
 				(font
@@ -2633,6 +2641,14 @@
 		(pin "1"
 			(uuid "83aa6490-34a3-449d-91be-c1ec04130234")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2644,7 +2660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a650375-821d-4ad6-8a89-15e38ed3b894")
-		(property "Reference" "C16"
+		(property "Reference" "C?"
 			(at 158.75 82.5562 0)
 			(effects
 				(font
@@ -2695,6 +2711,14 @@
 		(pin "2"
 			(uuid "2d20bcae-d303-42b2-89a4-bff4224b4937")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2706,7 +2730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbbcb9a-7af1-4157-8931-42ee50363744")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR?"
 			(at 156.21 95.25 0)
 			(effects
 				(font
@@ -2753,6 +2777,14 @@
 		(pin "1"
 			(uuid "5582e5cc-2de0-4676-89be-0456872a3f63")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2764,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372652e7-bf49-4dbd-be03-e098e07d6739")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR?"
 			(at 227.33 100.33 0)
 			(effects
 				(font
@@ -2811,6 +2843,14 @@
 		(pin "1"
 			(uuid "32d03230-3044-4493-9832-b7b3d4490444")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2822,7 +2862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49877002-dbc7-4f24-9f52-da9b63155439")
-		(property "Reference" "C15"
+		(property "Reference" "C?"
 			(at 149.86 120.6562 0)
 			(effects
 				(font
@@ -2873,6 +2913,14 @@
 		(pin "2"
 			(uuid "d12bbc64-eb2c-404e-9f88-b5de563582a0")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2884,7 +2932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab9c550-d6b3-472b-bc7f-9592f779282f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR?"
 			(at 233.68 148.59 0)
 			(effects
 				(font
@@ -2930,6 +2978,14 @@
 		)
 		(pin "1"
 			(uuid "d8a9c761-b359-45f6-ace9-061f9f3dfc5c")
+		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3008,7 +3064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fff786b-33ce-491c-a423-d9b1a045a866")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR?"
 			(at 264.16 129.54 0)
 			(effects
 				(font
@@ -3055,6 +3111,14 @@
 		(pin "1"
 			(uuid "be1df262-a2cc-426b-b923-da085f960ea6")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3066,7 +3130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60fa39a6-0e68-4476-9bab-5a6e343d61ba")
-		(property "Reference" "C17"
+		(property "Reference" "C?"
 			(at 158.75 144.7862 0)
 			(effects
 				(font
@@ -3117,6 +3181,14 @@
 		(pin "2"
 			(uuid "cd0a13e8-4f3b-4fdf-976f-515d0a4c826e")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3128,7 +3200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ac60a20-d930-4fc0-b951-049531a5f704")
-		(property "Reference" "C19"
+		(property "Reference" "C?"
 			(at 175.514 148.59 90)
 			(effects
 				(font
@@ -3177,6 +3249,14 @@
 		(pin "2"
 			(uuid "5ac07fce-d2b4-4fa6-8769-aa99e4b06f1a")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3188,7 +3268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f0fb729-302f-4ebd-a691-3ff480005894")
-		(property "Reference" "C18"
+		(property "Reference" "C?"
 			(at 162.56 127.0062 0)
 			(effects
 				(font
@@ -3239,6 +3319,14 @@
 		(pin "2"
 			(uuid "36d54a4a-7753-4726-a6b8-3e2b86fc9413")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3250,7 +3338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd9986f-422a-48ba-b290-571341b12148")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at 142.24 113.0362 0)
 			(effects
 				(font
@@ -3301,6 +3389,14 @@
 		(pin "2"
 			(uuid "68593ee1-cb46-4a5a-9010-080ba53b6fa4")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Cin:GRM219R61A475KE34D")
@@ -3312,7 +3408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f90c8f1-637e-4437-afad-efa78154f3c7")
-		(property "Reference" "C13"
+		(property "Reference" "C?"
 			(at 148.59 82.5499 90)
 			(effects
 				(font
@@ -3364,6 +3460,14 @@
 		)
 		(pin "2"
 			(uuid "7d7027df-7a1e-4de4-bddb-22a056830baa")
+		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3442,7 +3546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "882cfaaf-7db5-4a0a-934b-dad2c3a4d279")
-		(property "Reference" "C20"
+		(property "Reference" "C?"
 			(at 256.54 116.8399 90)
 			(effects
 				(font
@@ -3495,6 +3599,14 @@
 		(pin "1"
 			(uuid "e9a34486-9be1-4de4-9e19-341e3bf0fb56")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -3506,7 +3618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9a1818-2fd7-4206-b4fd-8b3331dacd83")
-		(property "Reference" "R7"
+		(property "Reference" "R?"
 			(at 236.22 128.2699 0)
 			(effects
 				(font
@@ -3557,6 +3669,14 @@
 		(pin "1"
 			(uuid "7393b9b7-f6fa-4715-850b-1ce072785dfb")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3568,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4cc3aca-7478-4158-af03-4bacead1a29c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR?"
 			(at 151.13 110.49 0)
 			(effects
 				(font
@@ -3616,6 +3736,14 @@
 		(pin "1"
 			(uuid "08b67874-b1d2-42f5-929f-2e0218065765")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -3627,7 +3755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0f225ab-4680-4f72-9fd6-664d473f66d5")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 167.64 148.59 90)
 			(effects
 				(font
@@ -3676,6 +3804,14 @@
 		(pin "1"
 			(uuid "904213d4-428c-4a46-a27a-8b9fb25c8ee4")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "A6986F:A6986F")
@@ -3687,7 +3823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cec1c3d9-6e2a-49b5-8de8-530f382b8db2")
-		(property "Reference" "U3"
+		(property "Reference" "U?"
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -3783,6 +3919,14 @@
 		(pin "15"
 			(uuid "1e2c7b16-e137-4691-8967-0c8ea71d6c68")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "L1:7447720150")
@@ -3794,7 +3938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c3b5c7-0ae0-4942-8203-48efade8f2f1")
-		(property "Reference" "L2"
+		(property "Reference" "L?"
 			(at 243.84 106.68 0)
 			(effects
 				(font
@@ -3844,6 +3988,14 @@
 		)
 		(pin "1"
 			(uuid "8b8c37d7-2ee2-483c-a111-9c50efb8feb3")
+		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3928,7 +4080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4843082-07b3-40b2-a5a4-31b2429d8947")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -3974,6 +4126,14 @@
 		)
 		(pin "1"
 			(uuid "b39d1f03-0660-4b2b-8cc1-4c6ea35b0979")
+		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4056,7 +4216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da060215-603a-4cf6-97fd-20f94f0d6ee7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR?"
 			(at 227.33 100.33 0)
 			(effects
 				(font
@@ -4103,6 +4263,14 @@
 		(pin "1"
 			(uuid "6c47efe6-57c6-430a-9ce6-cf4487f446f9")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4114,7 +4282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2eda07f-5c03-425b-8bed-8de34d05024f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 160.02 138.43 0)
 			(effects
 				(font
@@ -4161,6 +4329,14 @@
 		(pin "1"
 			(uuid "57eddc36-d96d-41ac-856c-ad429fa6deb2")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4172,7 +4348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d3c87d-3140-47b8-a243-d6ffe1ccd622")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -4219,6 +4395,14 @@
 		(pin "1"
 			(uuid "d00de13c-22d0-4ad9-9030-ec03d04c905e")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -4230,7 +4414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eba0e4f4-320d-4cc2-99ad-987b82c58afc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR?"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -4277,6 +4461,14 @@
 		(pin "1"
 			(uuid "178f7e9a-f6cd-4dae-9fa2-34f400ff909e")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4288,7 +4480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f4c99a-477c-4c9f-9be4-a2335f93505d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR?"
 			(at 156.21 156.21 0)
 			(effects
 				(font
@@ -4335,6 +4527,14 @@
 		(pin "1"
 			(uuid "c5f82d7d-894c-4c8c-a6b6-5240686cdfef")
 		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -4346,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbaf1067-0aa6-4cff-a2a6-305ebc384f08")
-		(property "Reference" "R6"
+		(property "Reference" "R?"
 			(at 193.04 83.82 90)
 			(effects
 				(font
@@ -4394,6 +4594,14 @@
 		)
 		(pin "1"
 			(uuid "3819258e-1222-402b-b79a-22f158285712")
+		)
+		(instances
+			(project "DataComm"
+				(path "/c2737be1-67a7-478e-8d11-58cc77864a99/db7d446c-265d-4855-832b-2758af349005"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
