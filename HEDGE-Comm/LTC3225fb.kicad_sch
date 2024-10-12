@@ -5,8 +5,8 @@
 	(uuid "6a613e00-ee60-44cf-a294-2d6bc663abaa")
 	(paper "C")
 	(title_block
-		(title "HEDGE-Data PCB")
-		(date "2024-10-09")
+		(title "HEDGE Comm PCB")
+		(date "2024-10-11")
 		(rev "1.0")
 		(company "Spacecraft Design Lab")
 		(comment 1 "University of Virginia")

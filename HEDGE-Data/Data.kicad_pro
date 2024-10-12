@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HEDGE-Data.kicad_pro",
+    "filename": "DataComm.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -452,6 +452,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 16,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -459,7 +476,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VBUS5"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -562,8 +596,8 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "page_layout_descr_file": "",
+    "net_format_name": "KiCad",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -576,37 +610,24 @@
   },
   "sheets": [
     [
-      "02a0bd66-ef06-41e3-be4b-cca89913b2e5",
+      "c2737be1-67a7-478e-8d11-58cc77864a99",
       "Root"
     ],
     [
-      "1902b453-0445-455b-b450-76c78e07c120",
+      "db7d446c-265d-4855-832b-2758af349005",
       "3V3"
     ],
     [
-      "d2923af6-060a-4b9c-b689-36e20ea6bda7",
+      "c30d0518-588e-429a-ae3c-1d99778331b7",
       "5V"
     ],
     [
-      "239e3f0e-d101-4327-8c6c-1d7f43f9fa83",
-      "INA260"
-    ],
-    [
-      "6b4fe02b-ae12-4d6e-9f82-f7bc9c052eea",
-      "LTC3225fb"
-    ],
-    [
-      "3d8b74a1-ff69-40df-90d3-fa5176499046",
-      "INA260a"
-    ],
-    [
-      "40d2e298-2505-4869-b40b-0e03f2c17fb7",
-      "INA260b"
-    ],
-    [
-      "c712c50a-4d08-4ef1-bd16-38c197a77deb",
-      "LTC3225fb1"
+      "bffb3150-efa7-44b6-b22c-746627d024f8",
+      "INA740B"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PROJECTNAME": "",
+    "SHEETTOTAL": "1"
+  }
 }
